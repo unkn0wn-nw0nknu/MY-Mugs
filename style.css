@@ -1,0 +1,372 @@
+header {
+    background: antiquewhite;
+    border-radius: 1vw;
+    padding: 0.5vw 0.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    box-shadow: #eadac4 0vw 2vw 4vw 0vw;
+}
+
+.mugs-logo {
+    width: 20vw;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.5vw;
+    margin: 0;
+    align-self: center;
+    padding-bottom: 0.5vw;
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 0;
+}
+
+section {
+    background: #bfbaaa;
+    border-radius: 1vw;
+    padding: 2vw;
+    width: 70vw;
+}
+
+main {
+    margin-top: 1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+
+.about_div {
+    display: flex;
+    flex-direction: column;
+}
+
+div#img_about_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+h4 {
+    margin: 1vw 0 0 0;
+    font-size: 1.5vw;
+}
+
+h2 {
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: fit-content;
+}
+
+.div-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+hr {
+    margin: 0;
+    background: black;
+    width: 1px;
+    height: 13vw;
+    border: 0;
+}
+
+nav {
+    place-self: center;
+    background: #d2b589;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    width: 70vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: #d2b5899c 0vw 1.5vw 1vw 0vw;
+} 
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 1vw;
+}
+
+li {
+    align-content: center;
+    border-radius: 1vw;
+    height: 3vw;
+    text-align: center;
+    width: 10vw;
+    background: antiquewhite;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vw;
+    margin: 3vw 0 0 0;
+    flex-direction: column;
+}
+
+.card {
+    background: #bf7373;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    height: 22vw;
+}
+
+.catalogue {
+    display: flex;
+    gap: 1vw;
+    background: #695555;
+    padding: 3vw;
+    border-radius: 1vw;
+    flex-direction: row;
+}
+
+.catalogue {
+  display: flex;
+  gap: 1vw;
+  background: #8d7f70;
+  padding: 3vw;
+  border-radius: 1vw;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+
+.catalogue::-webkit-scrollbar-thumb {
+    background: rgb(147, 127, 101);
+    border-radius: 1vw;
+}
+
+.catalogue::-webkit-scrollbar-track {
+    background: #d2b589;
+    border-radius: 1vw;
+}
+
+h5 {
+    padding: 0 0 1vw 0;
+    margin: 0;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.imgug {
+    height: 20vh;
+    margin: 0 0 1vw 0;
+    width: auto;
+}
+
+.imgug:hover {
+    width: -webkit-fill-available;
+    height: auto;
+    overflow: hidden;
+}
+
+button {
+    margin: 1vw;
+    padding: 1vw;
+    border: 0;
+    border-radius: 0.5vw;
+    background: #98e498;
+    align-self: center;
+}
+
+h2.h22 {
+    font-size: 3vw;
+    margin: 0;
+}
+
+h3.h83 {
+    font-size: 1.5vw;
+}
+
+a {
+    text-decoration: 0;
+    font-size: 1.5vw;
+    color: black;
+    background: aliceblue;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.big_div {
+    display: flex;
+}
+
+.sidebar {
+    width: 30vw;
+    background: #c0bcb5;
+    margin: 3vw 0vw 0vw 1vw;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition: ease-in-out;
+}
+
+.nava {
+    align-content: center;
+    border-radius: 1vw;
+    height: 3vw;
+    text-align: center;
+    width: 10vw;
+    background: antiquewhite;
+}
+
+.catalogue_products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+    background: #dbcdc4;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.card_products {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1e7da;
+    height: 30vw;
+    justify-content: center;
+    border-radius: 1vw;
+}
+
+#cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    overflow-y: auto;   /* scroll */
+    max-height: 80vh;   /* fix magasság */
+    padding-right: 0.5vw;
+    flex-shrink: 0;     /* fontos a flex gyerek esetén */
+}
+
+#cart-items::-webkit-scrollbar {
+    width: 10px;
+}
+
+#cart-items::-webkit-scrollbar-thumb {
+    background: rgb(147, 127, 101);
+    border-radius: 10px;
+}
+
+#cart-items::-webkit-scrollbar-track {
+    background: #d2b589;
+    border-radius: 10px;
+}
+
+
+.seller {
+    background-color: #ffffff00;
+}
+
+.div-prod {
+    display: flex;
+    flex-direction: row;
+    background: #c6b296;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+img.prod-img {
+    width: 20vw;
+}
+
+h1.prod-h1 {
+    font-size: 3vw;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+}
+
+.other-a {
+    background:0;
+}
+
+.h1-a {
+    text-align: center;
+    font-size: 4vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.ful {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.fli {
+    font-size: 1.5vw;
+    color: #333;
+    text-align: left;
+    width: 30vw;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+table {
+    width: 60vw;
+    border-collapse: collapse;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+table {
+    width: 60vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+th {
+    background-color: #bfa789;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+td {
+    padding: 1vw;
+    font-size: 1.5vw;
+    background: #eedec7;
+}
